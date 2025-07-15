@@ -1,0 +1,48 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+
+.column {
+  width: 30%;
+  float: left;
+  margin: 1.66%;
+  background-color: #e2e2e2;
+}
+
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header {
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.post {
+  overflow: hidden;
+}
+
+.post img {
+  float: left;
+  width: 20%;
+  height: auto;
+  margin-right: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .column {
+    width: 100%;
+    float: none;
+    margin: 10px 0;
+  }
+}
